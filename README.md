@@ -12,13 +12,14 @@ The Bloody Sonik Pumpkin is a novel distortion effect proccessor built within th
   - Research
   - Sources
 
-## Usage
-
-
-## Development
-
-In the following image is the initial design sketch as well as the initial concept of the software which at that time was intended to be a physical design.
-
 ## Research
 
 Development within distortion
+
+## Development
+
+In the following image is the initial design sketch as well as the initial concept of the software which at that time was intended to be a physical design. 
+
+## Usage
+
+
