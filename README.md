@@ -20,6 +20,12 @@ Development within distortion
 
 In the following image is the initial design sketch as well as the initial concept of the software which at that time was intended to be a physical design. 
 
+
+Unfortunately I was unable to include any sort of imagery within the current build of the BSP but for the next phase of its development I would like to include some imagery that can further distinguish it as a product.
+The following image is an early mockup of the type of imagery that would be included in any further development of the BSP as a product:
+
+![BSP logo design](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/IMG_0075.jpeg =250x250)
+
 ## Usage
 
 
