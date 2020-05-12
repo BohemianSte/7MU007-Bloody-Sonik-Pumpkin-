@@ -8,8 +8,8 @@ The Bloody Sonik Pumpkin is a novel distortion effect proccessor built within th
 
 ## Table of Contents
   - Usage
-  - Development
   - Research
+  - Development
   - Sources
 
 ## Usage
@@ -65,7 +65,11 @@ This note has been the main goal of the overall project and the one part of the 
 ![dev image 2](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/BSP%20Development%20image%203.png)
 
 In the above images you can see the first two stages of development with the first stage being a simple clipping based distortion circuit, I decided to begin by finding the correct sound of distortion to utilise first. I decided to stick with a clipping based distortion both for its simplicity in implementation and usability and its sound when interacting with both vocals and guitar as an input source.
-The second image shows the beginning of implementing a trigger for the distortion, with the goal being for the distortion to only be triggered upon the audio descending below a chosen threshold.
+The second image shows the beginning of implementing a trigger for the distortion, this early form is a triggered sequencer that is only activated when the amplitude goes above the designated threshold this is the opposite to the desired effect wherein the trigger would be to decline *below* a chosen threshold.
+
+##Evaluation
+
+As a conclusion I think the current build is a good first working prototype and I would like to carry on the work started and develop it further by incorporating more control parameters as well as possibily having multiple types of distortion ontop of the current clipping based one. I think the next natural progression of this project would be getting a working prototype in a VST plugin so that the processor could be more easily used and incorporated within DAWs.
 
 Unfortunately I was unable to include any sort of imagery within the current build of the BSP but for the next phase of its development I would like to include some imagery that can further distinguish it as a product.
 The following image is an early mockup of the type of imagery that would be included in any further development of the BSP as a product:
