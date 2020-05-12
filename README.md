@@ -47,7 +47,9 @@ The distortion circuit controls work similar to most distortion effect processin
 
 ## Research
 
-The subject area of distortion processors is now long and varied thusly it was necessary when researching for this project to narrow my own view to a handful of processors and developments. In todays world there is a range of readily available effects processors on the market which decide to take more novel approaches to tradtional practice, units such as 
+The subject area of distortion processors is now long and varied thusly it was necessary when researching for this project to narrow my own view to a handful of processors and developments. In todays world there is a range of readily available effects processors on the market which decide to take more novel approaches to tradtional practice, units such as the [Geiger Counter by WMD](https://www.youtube.com/watch?v=we5JErCLwPk). The Geiger Counter is a wave-table based distortion with several parameters available to the user allowing for a range of sounds from tube based overdrive to fuzz. 
+The Geiger Counter is an interesting pedal because of the variety within it's algorithms allowing for a comparison from three relevant forms of distortion which are clipping, wavefolding and harmonic distortion.
+
 
 ## Development
 
@@ -58,6 +60,12 @@ The following image is the initial design sketch as well as the initial concept 
 "Distortion plugin that dynamically reacts to certain inputs. Example with vocals as input: longer note sustained triggers gain to increase." 
 This note has been the main goal of the overall project and the one part of the patch that came together during the final stages.
 
+
+![dev image 1](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/BSP%20development%20image%202.png)
+![dev image 2](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/BSP%20Development%20image%203.png)
+
+In the above images you can see the first two stages of development with the first stage being a simple clipping based distortion circuit, I decided to begin by finding the correct sound of distortion to utilise first. I decided to stick with a clipping based distortion both for its simplicity in implementation and usability and its sound when interacting with both vocals and guitar as an input source.
+The second image shows the beginning of implementing a trigger for the distortion, with the goal being for the distortion to only be triggered upon the audio descending below a chosen threshold.
 
 Unfortunately I was unable to include any sort of imagery within the current build of the BSP but for the next phase of its development I would like to include some imagery that can further distinguish it as a product.
 The following image is an early mockup of the type of imagery that would be included in any further development of the BSP as a product:
