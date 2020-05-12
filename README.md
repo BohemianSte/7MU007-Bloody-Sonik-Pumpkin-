@@ -47,7 +47,7 @@ The distortion circuit controls work similar to most distortion effect processin
 
 ## Research
 
-Development within distortion 
+The subject area of distortion processors is now long and varied thusly it was necessary when researching for this project to narrow my own view to a handful of processors and developments. In todays world there is a range of readily available effects processors on the market which decide to take more novel approaches to tradtional practice, units such as 
 
 ## Development
 
@@ -56,7 +56,7 @@ The following image is the initial design sketch as well as the initial concept 
 ![BSP Initial Sketch](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/BSP%20initial%20sketch.jpg)
 
 "Distortion plugin that dynamically reacts to certain inputs. Example with vocals as input: longer note sustained triggers gain to increase." 
-This note has been the main goal of the overall project and the one part of the patch that came together during the last moment.
+This note has been the main goal of the overall project and the one part of the patch that came together during the final stages.
 
 
 Unfortunately I was unable to include any sort of imagery within the current build of the BSP but for the next phase of its development I would like to include some imagery that can further distinguish it as a product.
