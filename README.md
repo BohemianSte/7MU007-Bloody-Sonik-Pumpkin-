@@ -61,7 +61,9 @@ The following image is the initial design sketch as well as the initial concept 
 This note has been the main goal of the overall project and the one part of the patch that came together during the final stages.
 
 
+**Dev Image 1**
 ![dev image 1](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/BSP%20development%20image%202.png)
+**Dev Image 2**
 ![dev image 2](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/BSP%20Development%20image%203.png)
 
 In the above images you can see the first two stages of development with the first stage being a simple clipping based distortion circuit, I decided to begin by finding the correct sound of distortion to utilise first. I decided to stick with a clipping based distortion both for its simplicity in implementation and usability and its sound when interacting with both vocals and guitar as an input source.
@@ -69,6 +71,11 @@ The second image shows the beginning of implementing a trigger for the distortio
 
 **Dev image 4**
 ![dev image 4](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/BSP%20working%20prototype%20no%20interface.png)
+
+**Working On The Interface**
+![Interface ideas](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/BSP%20Interface%20variations.png)
+
+
 ## Evaluation
 
 As a conclusion I think the current build is a good first working prototype and I would like to carry on the work started and develop it further by incorporating more control parameters as well as possibily having multiple types of distortion ontop of the current clipping based one. I think the next natural progression of this project would be getting a working prototype in a VST plugin so that the processor could be more easily used and incorporated within DAWs.
