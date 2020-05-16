@@ -88,6 +88,6 @@ The following image is an early mockup of the type of imagery that would be incl
 
 ![BSP logo design](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/IMG_0075.jpeg)
 
-The above concept was a mockup created by the artist Kate Hawkins in New Zealand who can be contacted at the following email address: katejmh@gmail.com 
+The above concept was a mockup created by the artist Kate Hawkins in New Zealand who can be contacted at the following email address: katejmh@gmail.com  
 
 
