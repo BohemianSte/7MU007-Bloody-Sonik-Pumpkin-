@@ -76,7 +76,8 @@ Now in the above image this is a pretty finalised version of the circuit the big
 
 **Working On The Interface**
 ![Interface ideas](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/BSP%20Interface%20variations.png)
-
+As seen above the design of the interface went through several iterations before the final version seen below, I knew roughly what controls I did want to include; decay and gain controls mainly. Unfortunately due to the outbreak of Covid-19 in the UK conduction any sort of in-person survey's or feedback became impossible but between myself and a friend whose also a musician we had a few back and forth conversations wherein I would show him the first design on the top left and simply asked if he were to own this in a product what would be his ideal controls and what other parameters would he want to control.
+From his feedback I went through a few more iterations before settling on the final version which features the addition of the threshold slider as well as as visual representation of the output audio signal.
 
 ## Evaluation
 
