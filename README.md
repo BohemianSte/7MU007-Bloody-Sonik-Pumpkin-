@@ -43,7 +43,7 @@ The Decay sliders determine how quickly the signal will decay from clean to dist
 ![Distortion](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/gain.png)
 
 
-The distortion circuit controls work similar to most distortion effect processing units with the gain knob controlling the amount of gain that will occur once the circuit is triggered. The tone knob is a high pass filter within the circuit and finally the volume knob will determine how amplitude of the overall signal.
+The distortion circuit controls work similar to most distortion effect processing units with the gain knob controlling the amount of gain that will occur once the circuit is triggered. The tone knob is a high pass filter within the circuit and finally the volume knob will determine the amplitude of the overall signal.
 
 ## Research
 
@@ -71,6 +71,8 @@ The second image shows the beginning of implementing a trigger for the distortio
 
 **Dev image 4**
 ![dev image 4](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/BSP%20working%20prototype%20no%20interface.png)
+Now in the above image this is a pretty finalised version of the circuit the big obvious addition is the slider to the left side which connects and outputs the sound to the [DAC~] object, this section is the gate that opens or closes depending on the threshold, utilising the [togedge] object from the Cyclone external library. This object sends a signal out to one of two bang objects below depending on if the input amplitude is above or below the user chosen threshold, from either of those initial bangs it then sends the signal to another bang which trigers the slider of the decay circuit on the left. I began initially with only one decay slide trigger which achieved a nice effect to gradually transition from distorted to clean but as soon as the signal descended below the threshold it would sharply drop to a distorted signal so I thought it best to add another with both being indipendent of each other as to allow for more options for the user to alter the effect to best suit their needs.
+
 
 **Working On The Interface**
 ![Interface ideas](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/BSP%20Interface%20variations.png)
@@ -84,6 +86,8 @@ Unfortunately I was unable to include any sort of imagery within the current bui
 The following image is an early mockup of the type of imagery that would be included in any further development of the BSP as a product:
 
 ![BSP logo design](https://github.com/BohemianSte/7MU007-Bloody-Sonik-Pumpkin-/blob/master/IMG_0075.jpeg)
+
+The above concept was a mockup created by the artist Kate Hawkins in New Zealand who can be contacted [here](
 
 
 
