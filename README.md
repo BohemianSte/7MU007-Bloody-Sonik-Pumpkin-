@@ -10,7 +10,6 @@ The Bloody Sonik Pumpkin is a novel distortion effect proccessor built within th
   - Usage
   - Research
   - Development
-  - Sources
 
 ## Usage
 
